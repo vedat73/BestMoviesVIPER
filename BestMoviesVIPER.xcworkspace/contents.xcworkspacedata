@@ -10,4 +10,7 @@
    <FileRef
       location = "group:BestMoviesAPI/BestMoviesAPI.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:BestMoviesVIPER/BestMoviesVIPERTests/BestMoviesVIPER.xctestplan">
+   </FileRef>
 </Workspace>

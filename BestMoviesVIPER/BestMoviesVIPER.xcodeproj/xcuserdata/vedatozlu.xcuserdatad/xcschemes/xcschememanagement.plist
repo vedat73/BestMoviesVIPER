@@ -7,7 +7,20 @@
 		<key>BestMoviesVIPER.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>BEE057F72A9A42CD00C3B022</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BEE058AA2A9A4D5200C3B022</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

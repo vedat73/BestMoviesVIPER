@@ -11,8 +11,7 @@ import BestMoviesAPI
 final class MovieDetailBuilder {
     
     static func make(with movie: Movie) -> MovieDetailViewController {
-        let storyboard = UIStoryboard(name: "MovieDetail", bundle: nil)
-        let viewController = storyboard.instantiateViewController(withIdentifier: "MovieDetailViewController") as! MovieDetailViewController
+        let viewController = MovieDetailViewController.instantiate()
         let presenter = MovieDetailPresenter(view: viewController, movie: movie)
         viewController.presenter = presenter
         return viewController

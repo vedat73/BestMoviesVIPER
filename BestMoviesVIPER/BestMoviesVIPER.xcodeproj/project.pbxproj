@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BEA75A812AA2155400AA417C /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA75A802AA2155400AA417C /* Storyboardable.swift */; };
 		BEE057FC2A9A42CD00C3B022 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE057FB2A9A42CD00C3B022 /* AppDelegate.swift */; };
 		BEE057FE2A9A42CD00C3B022 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE057FD2A9A42CD00C3B022 /* SceneDelegate.swift */; };
 		BEE058052A9A42CF00C3B022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE058042A9A42CF00C3B022 /* Assets.xcassets */; };
@@ -89,6 +90,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BEA75A7B2AA20D8600AA417C /* BestMoviesVIPER.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = BestMoviesVIPER.xctestplan; sourceTree = "<group>"; };
+		BEA75A802AA2155400AA417C /* Storyboardable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
 		BEE057F82A9A42CD00C3B022 /* BestMoviesVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestMoviesVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE057FB2A9A42CD00C3B022 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEE057FD2A9A42CD00C3B022 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -143,6 +146,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BEA75A7F2AA2154000AA417C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BEA75A802AA2155400AA417C /* Storyboardable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		BEE057EF2A9A42CD00C3B022 = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +180,7 @@
 		BEE057FA2A9A42CD00C3B022 /* BestMoviesVIPER */ = {
 			isa = PBXGroup;
 			children = (
+				BEA75A7F2AA2154000AA417C /* Protocols */,
 				BEE058822A9A498800C3B022 /* Resources */,
 				BEE058812A9A497B00C3B022 /* SupportingFiles */,
 				BEE058802A9A497200C3B022 /* Scenes */,
@@ -305,6 +317,7 @@
 		BEE058AC2A9A4D5200C3B022 /* BestMoviesVIPERTests */ = {
 			isa = PBXGroup;
 			children = (
+				BEA75A7B2AA20D8600AA417C /* BestMoviesVIPER.xctestplan */,
 				BEE058AD2A9A4D5200C3B022 /* BestMoviesVIPERTests.swift */,
 			);
 			path = BestMoviesVIPERTests;
@@ -466,6 +479,7 @@
 				BEE058A42A9A4C7E00C3B022 /* AppRouter.swift in Sources */,
 				BEE058982A9A4B6200C3B022 /* MovieListBuilder.swift in Sources */,
 				BEE058BB2A9A4E2E00C3B022 /* MovieListRouter.swift in Sources */,
+				BEA75A812AA2155400AA417C /* Storyboardable.swift in Sources */,
 				BEE058B72A9A4E0300C3B022 /* MovieListInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

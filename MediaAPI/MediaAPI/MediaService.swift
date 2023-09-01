@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import UIKit
+import class UIKit.UIImage
 import Kingfisher
 
 public protocol MediaServiceProtocol {

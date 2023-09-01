@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "AB5CA839-1CB6-48AE-A6F9-C3670EC21F34",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:BestMoviesVIPER.xcodeproj",
+      "identifier" : "BEE057F72A9A42CD00C3B022",
+      "name" : "BestMoviesVIPER"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:BestMoviesVIPER.xcodeproj",
+        "identifier" : "BEE058AA2A9A4D5200C3B022",
+        "name" : "BestMoviesVIPERTests"
+      }
+    }
+  ],
+  "version" : 1
+}

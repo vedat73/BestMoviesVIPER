@@ -20,6 +20,12 @@ final class MovieListViewController: UIViewController {
     }
 }
 
+extension MovieListViewController: Storyboardable {
+    static var storyboardName: String {
+        "MovieList"
+    }
+}
+
 extension MovieListViewController: MovieListViewProtocol {
     func handleOutput(_ output: MovieListPresenterOutput) {
         switch output {

@@ -32,7 +32,7 @@ public final class BestMoviesService: BestMoviesServiceProtocol {
                         let response = try decoder.decode(BestMoviesResponse.self, from: data)
                         completion(.success(response))
                     } catch {
-                        completion(.failure(Error.networkError(internal: error)))
+                        completion(.failure(Error.serializationError(internal: error)))
                     }
                 case .failure(let error):
                     completion(.failure(Error.networkError(internal: error)))

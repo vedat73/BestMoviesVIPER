@@ -27,6 +27,12 @@ final class MovieDetailViewController: UIViewController {
     }
 }
 
+extension MovieDetailViewController: Storyboardable {
+    static var storyboardName: String {
+        "MovieDetail"
+    }
+}
+
 extension MovieDetailViewController: MovieDetailViewProtocol {
     
     func update(_ presentation: MovieDetailPresentation) {
